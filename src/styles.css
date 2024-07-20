@@ -1,0 +1,9 @@
+.hello{
+    color: red;
+    font-size: xx-large;
+    font-weight: bold;
+    text-shadow: 5px 2px 2px black;
+}
+body{
+    background-color: lightblue;
+}
