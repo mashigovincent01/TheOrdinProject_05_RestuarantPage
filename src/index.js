@@ -1,5 +1,7 @@
 import style from './styles.css';
-import hero from './assets/images/hero.jpg';
+import hero from './hero';
+import menu from './menu';
 
-
-console.log("Hello world");
+const content = document.querySelector("#content");
+content.appendChild(hero);
+content.appendChild(menu);
