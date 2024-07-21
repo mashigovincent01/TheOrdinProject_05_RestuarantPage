@@ -1,7 +1,5 @@
 import style from './styles.css';
-import hero from './hero';
-import menu from './menu';
+import home from './home';
 
-const content = document.querySelector("#content");
-content.appendChild(hero);
-content.appendChild(menu);
+const homeButton = document.querySelector("#home");
+homeButton.addEventListener('click', home);

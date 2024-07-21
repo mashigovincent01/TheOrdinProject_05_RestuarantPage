@@ -10,7 +10,7 @@ const heroLeft = (()=>{
     p.textContent = "Hungry? You've come to the right place. Enjoy our delicious, mouth-watering dishes.";
     let buttons = document.createElement('div');
     buttons.id = "buttons";
-    buttons.innerHTML = "<button>Menu</button><button>Special</button>";
+    buttons.innerHTML = `<button onclick="location.href='#menu'">Menu</button><button>Special</button>`;
     div.appendChild(h1);
     div.appendChild(p);
     div.appendChild(buttons);
