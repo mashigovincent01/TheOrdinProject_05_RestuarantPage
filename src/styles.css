@@ -142,3 +142,94 @@ h3{
     font-size: 35px;
     margin-bottom: 40px;
 }
+#about-h1{
+    text-align: center;
+    font-size: 40px;
+}
+#about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+}
+#about img{
+    border-radius: 20px;
+    width: 400px;
+}
+nav button{
+    font-weight: 600;
+    color: #005C78;
+    
+}
+nav button:hover{
+    cursor: pointer;
+}
+#quote{
+    text-align: center;
+    margin-top: 20px;
+    width: 80%;
+    margin: 40px auto;
+    background-color: #405D72;
+    color: white;
+    padding: 20px;
+}
+#quote{
+    font-size: 20px;
+}
+@media screen and (max-width: 600px) {
+    #about{
+        grid-template-columns: 1fr;
+    }
+}
+#about p, #about h2{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.container button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #3C5B6F;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+label{
+    font-size: 25px;
+}
+button:hover {
+    background-color: #088395;
+}
