@@ -230,6 +230,6 @@ h2 {
 label{
     font-size: 25px;
 }
-button:hover {
+.container button:hover {
     background-color: #088395;
 }
